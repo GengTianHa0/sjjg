@@ -1,0 +1,26 @@
+LinkedListSet
+
+
+增 add
+在增加之前，我们要循环整个链表 是否有重复元素
+这个遍历过程是O(n)的 所以 增 是O(n)级别的
+
+查 contains O(n)
+
+删 remove   O(n)
+
+
+
+BSTSet
+h:代表树的深度
+
+ h和n的联系
+ 最理想的情况下 O(h)=O(logn)
+ 最不理想的情况下 O(h)=O(n)
+
+增 add       O(h)或O(logn)
+
+
+查 contains O(h)或O(logn)
+
+删 remove   O(h)或O(logn)
